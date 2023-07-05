@@ -13,6 +13,7 @@
 *.css text diff=css
 *.scss text diff=scss
 *.js text diff=js
+*.ts text diff=ts
 
 # Typical data formats
 *.csv text diff=csv
