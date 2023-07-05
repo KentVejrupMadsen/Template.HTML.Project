@@ -14,6 +14,15 @@
 *.scss text diff=scss
 *.js text diff=js
 
+# Typical data formats
+*.csv text diff=csv
+*.xml text diff=xml
+*.json text diff=json
+
+# used for workflows
+*.yaml text diff=yaml
+
+
 # Git attributes
 .gitignore text diff=gitignore export-ignore
 .gitattributes text diff=gitattributes export-ignore
