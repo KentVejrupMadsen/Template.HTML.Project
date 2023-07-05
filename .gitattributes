@@ -3,6 +3,7 @@
 
 # Documentation
 *.md text diff=markdown eol=crlf
+*.tex text diff=tex
 
 # Scripts
 *.sh text diff=sh
