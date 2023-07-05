@@ -12,13 +12,15 @@
 *.php text diff=php
 *.shtml text diff=shtml
 *.py text diff=python
-
+*.cs text diff=csharp
+*.java text diff=java
+*.rs text diff=rust
 
 # Frontend Files
 *.html text diff=html
 *.htm text diff=html
-*.xhtml text diff=xhtml
-*.dhtml text diff=dhtml
+*.xhtml text diff=html
+*.dhtml text diff=html
 
 ## Style sheets
 *.css text diff=css
@@ -35,6 +37,12 @@
 
 # used for workflows
 *.yaml text diff=yaml
+
+# Project
+*.vcproj text eol=crlf
+
+# Misc
+*.txt text
 
 # Git attributes
 .gitignore text diff=gitignore export-ignore
