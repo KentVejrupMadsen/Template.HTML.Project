@@ -1,0 +1,24 @@
+* text=auto eol=lf
+
+# Scripts
+*.sh text diff=sh
+*.ps1 text diff=ps1 eol=crlf
+
+# Documentation
+*.md text diff=markdown eol=crlf
+
+# Code
+*.php text diff=php
+*.html text diff=html
+*.css text diff=css
+*.scss text diff=scss
+*.js text diff=js
+
+# Git attributes
+.gitignore text diff=gitignore export-ignore
+.gitattributes text diff=gitattributes export-ignore
+.gitmodules text diff=gitmodules export-ignore
+
+Changelog.md export-ignore
+
+/.github export-ignore
