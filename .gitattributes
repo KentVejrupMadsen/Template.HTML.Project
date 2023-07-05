@@ -4,6 +4,7 @@
 # Documentation
 *.md text diff=markdown eol=crlf
 *.tex text diff=tex
+*.pdf -text
 
 # Scripts
 *.sh text diff=sh
@@ -35,6 +36,17 @@
 *.csv text diff=csv
 *.xml text diff=xml
 *.json text diff=json
+
+# Image Formats
+*.svg text eol=lf
+
+*.bmp binary diff=exif
+*.png binary diff=exif
+*.tga binary diff=exif
+*.jpg binary diff=exif
+*.jpeg binary diff=exif
+*.webp binary diff=exif
+*.gif binary diff=exif
 
 # used for workflows
 *.yaml text diff=yaml
