@@ -38,7 +38,7 @@
 *.json text diff=json
 
 # Image Formats
-*.svg text eol=lf
+*.svg text eol=lf diff=xml
 
 *.bmp binary diff=exif
 *.png binary diff=exif
